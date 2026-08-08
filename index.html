@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080808">
+<title>NINE AFTER STREET CLUB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+
+<header class="nav">
+  <a class="brand" href="#home"><span>NASC</span><small>JDM STREET CLUB</small></a>
+  <button class="menu" aria-label="menu"><i></i><i></i></button>
+  <nav>
+    <a href="#home">HOME</a>
+    <a href="#story">STORY</a>
+    <a href="#crew">CREW</a>
+    <a href="#garage">GARAGE</a>
+    <a href="#code">CODE</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="eyebrow">EST. 2026 / JAPANESE STREET CULTURE</p>
+    <h1>NINE<br><span>AFTER</span><br>STREET</h1>
+    <p class="lead">Built Different. <b>Driven Together.</b></p>
+    <div class="actions">
+      <a class="btn primary" href="#crew">ENTER THE CREW <span>↗</span></a>
+      <a class="btn ghost" href="#story">OUR STORY</a>
+    </div>
+  </div>
+  <div class="vertical">MIDNIGHT RUNNERS / 09</div>
+  <div class="scroll">SCROLL <span>↓</span></div>
+</section>
+
+<section id="story" class="section story">
+  <div class="section-tag">01 — THE STORY</div>
+  <div class="story-grid">
+    <div>
+      <p class="kicker">NOT JUST A CAR CLUB.</p>
+      <h2>AFTER DARK,<br><em>WE MOVE.</em></h2>
+    </div>
+    <div class="copy">
+      <p>Nine After Street Club is a community built around JDM culture, midnight drives, clean builds, and real brotherhood.</p>
+      <p>We respect the machine, the road, and the people beside us. Every car has a story. Every member has a place.</p>
+      <div class="stats"><div><b>09</b><span>CREW SPIRIT</span></div><div><b>JDM</b><span>ROOTS</span></div><div><b>∞</b><span>MIDNIGHT RUNS</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="crew" class="section dark">
+  <div class="section-head">
+    <div><div class="section-tag">02 — THE CREW</div><h2>MEET THE<br><em>DRIVERS.</em></h2></div>
+    <p>Different cars. Different skills.<br>One street family.</p>
+  </div>
+  <div class="crew-grid">
+    <article class="crew-card" onclick="openCrew('Marco Buscetta','MECHANIC','Honda Civic EG6','Tuning / Engine Setup / Fabrication','The hands behind the build. Marco keeps every machine sharp before it touches the street.')">
+      <div class="avatar">MB</div><div><span>MECHANIC</span><h3>Marco Buscetta</h3><p>Honda Civic EG6</p></div><b>↗</b>
+    </article>
+    <article class="crew-card" onclick="openCrew('Vinza Jayakrisna','STREET RACER','Subaru WRX STI','Quick Reflex / Gear Shift / Night Racing','A confident street racer with a calm head and a fast right foot.')">
+      <div class="avatar">VJ</div><div><span>STREET RACER</span><h3>Vinza Jayakrisna</h3><p>Subaru WRX STI</p></div><b>↗</b>
+    </article>
+    <article class="crew-card" onclick="openCrew('Raymond Nico Buscetta','DRIVER','Nissan GT-R R32','Tuning / High Speed / Power Slide','Precision, power and control. The R32 is his signature machine.')">
+      <div class="avatar">RN</div><div><span>DRIVER</span><h3>Raymond Nico Buscetta</h3><p>Nissan GT-R R32</p></div><b>↗</b>
+    </article>
+    <article class="crew-card" onclick="openCrew('Hikaru','CREW MEMBER','JDM BUILD','Street Setup / Style','Part of the next generation keeping the culture moving forward.')">
+      <div class="avatar">HK</div><div><span>CREW MEMBER</span><h3>Hikaru</h3><p>JDM Build</p></div><b>↗</b>
+    </article>
+    <article class="crew-card" onclick="openCrew('Vinza','CREW MEMBER','JDM BUILD','Driving / Setup','Built for late nights and long roads.')">
+      <div class="avatar">VZ</div><div><span>CREW MEMBER</span><h3>Vinza</h3><p>JDM Build</p></div><b>↗</b>
+    </article>
+    <article class="crew-card" onclick="openCrew('Yaka','CREW MEMBER','JDM BUILD','Driving / Street Culture','Quiet presence. Strong build. Always ready for the next run.')">
+      <div class="avatar">YK</div><div><span>CREW MEMBER</span><h3>Yaka</h3><p>JDM Build</p></div><b>↗</b>
+    </article>
+  </div>
+</section>
+
+<section id="garage" class="section garage">
+  <div class="section-tag">03 — THE GARAGE</div>
+  <h2>ICONIC<br><em>MACHINES.</em></h2>
+  <div class="cars">
+    <div class="car"><div class="car-no">01</div><div><span>HONDA / EG6</span><h3>CIVIC</h3><p>Lightweight / Tuning / Street</p></div></div>
+    <div class="car"><div class="car-no">02</div><div><span>NISSAN / R32</span><h3>SKYLINE GT-R</h3><p>RB26 / AWD / Godzilla</p></div></div>
+    <div class="car"><div class="car-no">03</div><div><span>SUBARU / STI</span><h3>WRX STI</h3><p>Boxer / AWD / Rally DNA</p></div></div>
+    <div class="car"><div class="car-no">04</div><div><span>JAPANESE / CLASSIC</span><h3>YOUR BUILD</h3><p>Every build has a story.</p></div></div>
+  </div>
+</section>
+
+<section id="code" class="section code">
+  <div class="section-tag">04 — CODE OF ETHICS</div>
+  <div class="code-grid">
+    <div><h2>RESPECT<br><em>THE STREET.</em></h2><p class="muted">Our culture is built on respect, responsibility and brotherhood.</p></div>
+    <ol>
+      <li><span>01</span><b>Respect the crew.</b><p>No ego above the family.</p></li>
+      <li><span>02</span><b>Respect the machine.</b><p>Build it. Maintain it. Know it.</p></li>
+      <li><span>03</span><b>Respect the road.</b><p>Drive responsibly and know the limits.</p></li>
+      <li><span>04</span><b>Keep it real.</b><p>No fake stories. No fake brotherhood.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="join">
+  <p class="eyebrow">NINE AFTER STREET CLUB</p>
+  <h2>SEE YOU<br><em>AFTER NINE.</em></h2>
+  <a class="btn primary" href="https://discord.gg/Vje5w4GQW" target="_blank">JOIN DISCORD ↗</a>
+</section>
+</main>
+
+<footer><b>NASC</b><span>© 2026 NINE AFTER STREET CLUB</span><span>JDM / STREET / BROTHERHOOD</span></footer>
+
+<div id="modal" class="modal" onclick="closeCrew(event)">
+  <div class="modal-box">
+    <button onclick="closeCrew()">×</button>
+    <span id="mrole"></span><h2 id="mname"></h2><h3 id="mcar"></h3>
+    <p class="expert" id="mexpert"></p><p id="mbio"></p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
